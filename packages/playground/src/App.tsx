@@ -63,8 +63,8 @@ function App() {
       fakeApiCall(),
       {
         loading: 'Fetching user data...',
-        success: (data) => `Success: ${data.data}`,
-        error: (err) => `Error: ${err.message}`,
+        success: (data) => `Success: ${(data as { data: string }).data}`,
+        error: (err) => `Error: ${(err as Error).message}`,
       },
       { position }
     );
