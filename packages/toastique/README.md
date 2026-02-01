@@ -1,6 +1,13 @@
-# Toastique
+# react-toastique
 
 A lightweight, elegant toast notification library for React.
+
+[![npm version](https://img.shields.io/npm/v/react-toastique.svg)](https://www.npmjs.com/package/react-toastique)
+[![license](https://img.shields.io/npm/l/react-toastique.svg)](https://github.com/sayedabdulkarim/toastique/blob/master/LICENSE)
+
+## Demo
+
+**[Live Playground](https://playground-production-250c.up.railway.app/)**
 
 ## Features
 
@@ -124,6 +131,12 @@ import type {
 } from 'react-toastique';
 ```
 
+## Links
+
+- [Live Demo](https://playground-production-250c.up.railway.app/)
+- [GitHub Repository](https://github.com/sayedabdulkarim/toastique)
+- [npm Package](https://www.npmjs.com/package/react-toastique)
+
 ## License
 
 MIT
@@ -132,4 +145,4 @@ MIT
 
 **Sayed Abdul Karim**
 
-- GitHub: [@saykarim](https://github.com/saykarim)
+- GitHub: [@sayedabdulkarim](https://github.com/sayedabdulkarim)
