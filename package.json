@@ -1,0 +1,12 @@
+{
+  "name": "toastique-monorepo",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter playground dev",
+    "build": "pnpm --filter toastique build",
+    "type-check": "pnpm -r type-check"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
