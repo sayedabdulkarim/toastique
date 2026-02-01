@@ -18,11 +18,11 @@ A lightweight, elegant toast notification library for React.
 ## Installation
 
 ```bash
-npm install toastique
+npm install react-toastique
 # or
-pnpm add toastique
+pnpm add react-toastique
 # or
-yarn add toastique
+yarn add react-toastique
 ```
 
 ## Quick Start
@@ -30,8 +30,8 @@ yarn add toastique
 ### 1. Wrap your app with ToastProvider
 
 ```tsx
-import { ToastProvider } from 'toastique';
-import 'toastique/styles.css';
+import { ToastProvider } from 'react-toastique';
+import 'react-toastique/styles.css';
 
 function App() {
   return (
@@ -45,7 +45,7 @@ function App() {
 ### 2. Use the hook anywhere
 
 ```tsx
-import { useToast } from 'toastique';
+import { useToast } from 'react-toastique';
 
 function MyComponent() {
   const toast = useToast();
@@ -121,7 +121,7 @@ import type {
   ToastPosition,
   ToastType,
   ToastOptions
-} from 'toastique';
+} from 'react-toastique';
 ```
 
 ## License

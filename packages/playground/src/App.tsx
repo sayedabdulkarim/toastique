@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useToast, ToastPosition } from 'toastique';
+import { useToast, ToastPosition } from 'react-toastique';
 
 const positions: ToastPosition[] = [
   'top-left',

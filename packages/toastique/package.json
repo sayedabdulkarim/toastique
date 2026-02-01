@@ -1,5 +1,5 @@
 {
-  "name": "toastique",
+  "name": "react-toastique",
   "version": "1.0.0",
   "description": "A lightweight, elegant toast notification library for React",
   "type": "module",
